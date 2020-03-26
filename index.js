@@ -1,17 +1,8 @@
-var number = 10
- 
-function add5() {
-  number += 5
+unction makeInt(a){ //Parse a as an integer and return that integer.
+  number = parseInt(a, 10);
+  return number;
 }
-
-function divideBy3() {
-  number /= 3
- 
-console.log(number) 
+function preserveDecimal(a){ //Parse a as a float (number with decimals) and return that number.
+  number = parseFloat(a, 10);
+  return number;
 }
-divideBy3()
-
-console.log(number)
-
-add5()
- 
